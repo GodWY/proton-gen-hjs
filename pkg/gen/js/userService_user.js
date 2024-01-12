@@ -7,7 +7,7 @@ import request from '@/utils/request.js'
 /**
  * 用户登录
  * @param {Object} data
- * @param {string} data.sns_id 暂无注释，请联系后端开发索要注释。 sns_id
+ * @param {string} data.sns_id 渠道标识+渠道唯一标识 sns_id
  * @param {string} data.app_id 暂无注释，请联系后端开发索要注释。 app_id
  * @return {string} data.jwt_token 暂无注释，请联系后端开发索要注释。 jwt_token
  * @return {number} data.user_id 暂无注释，请联系后端开发索要注释。 user_id

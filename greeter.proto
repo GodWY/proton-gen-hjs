@@ -5,7 +5,7 @@ option go_package="pkg/gen/http/user";
 
 // LoginReq 登录请求
 message LoginReq{
-  // 渠道标识+渠道唯一标识
+  // @note:渠道标识+渠道唯一标识
   // @gotags: form:"sns_id" json:"sns_id"
   string sns_id = 1;
   // 微信appid
