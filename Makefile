@@ -1,0 +1,2 @@
+GOPATHS=`go env GOPATH`
+
